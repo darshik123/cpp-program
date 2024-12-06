@@ -1,33 +1,33 @@
 #include <iostream>
 using namespace std;
 
-class Complex {
+class Complex
+{
     int x;
     int y;
 
-    public:
-
-    void getdata(int a ,int b){
+public:
+    void getdata(int a, int b)
+    {
         x = a;
         y = b;
-    
     }
 
-
-    void printdata(){
+    void printdata()
+    {
         cout << "valu of x:" << x << endl;
         cout << "valu of y:" << y << endl;
-
     }
 
-    void operator-(){
+    void operator-()
+    {
         x = -x;
         y = -y;
     }
 };
 
-
-int main (){
+int main()
+{
     class Complex c1;
     c1.getdata(-5, -6);
     c1.printdata();
