@@ -15,7 +15,7 @@ class Multi{
          y = b;
      }
 
-     Multi operator+(Multi&z){
+     Multi operator+(Multi z){
          Multi t;
          t.x = x +z.x;
          t.y = y + z.y;
