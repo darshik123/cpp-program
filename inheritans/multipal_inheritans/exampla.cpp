@@ -27,8 +27,7 @@ class C: public A,public B{
   void displaydat(){
       cout << "value of a:" << a << endl;
       cout << "value of b:" << b << endl;
-      cout << "value of a+b:" <<a+b << endl;
-
+      cout << "value of a+b:" << a + b << endl;
   }
 
 };
