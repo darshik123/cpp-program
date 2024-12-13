@@ -13,7 +13,7 @@ class Base1{
   }
 };
 
-class Base2{
+class Base2:public Base1{
     protected:
         int b;
     public:
@@ -24,7 +24,7 @@ class Base2{
 };
 
 
- class Drive:public Base1,public Base2{
+ class Drive:public Base2{
    public:
    void product(){
        cout << "Addition of a and b:" << a + b;
