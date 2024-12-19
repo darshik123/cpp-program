@@ -50,4 +50,4 @@ int main(){
     obj3.setB();
     obj3.setC();
     obj3.sumabc();
-}
+};
